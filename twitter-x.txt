@@ -56,6 +56,8 @@ x.com##[aria-label*="View post analytics"]:upward(1)
 ! Block 'Views' label
 x.com##.r-1471scf.r-1wbh5a2.r-18u37iz.r-1d09ksm.css-175oi2r > div.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1:nth-of-type(3):has-text("View")
 x.com##.r-1471scf.r-1wbh5a2.r-18u37iz.r-1d09ksm.css-175oi2r > .r-n7gxbd.r-1q142lx.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
+! Block 'Edit image' button when hovering over tweets with images
+x.com##[href*="/i/imagine"][aria-label*="Edit image"]:upward(2)
 
 ! Block 'Subscribe to Premium to write your own longer posts' advertisement on long tweets
 x.com##[aria-label="Subscribe to Premium to write your own longer posts"]:upward(2)
