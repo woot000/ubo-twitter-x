@@ -10,21 +10,23 @@ x.com##[aria-label="Grok"][href="/i/grok"]
 x.com##[aria-label="Communities"][href*="/communities"]
 ! Block Premium sidebar button
 x.com##[aria-label="Premium"][href="/i/premium_sign_up"]
-! Block Jobs sidebar button (may have been removed)
+! Block Jobs sidebar button (not always visible)
 x.com##[href="/jobs"]
-! Block Premium Business sidebar button (may have been removed)
+! Block Premium Business sidebar button (not always visible)
 x.com##[href="/i/verified-orgs-signup"]
+! Block Creator Studio sidebar button
+x.com##[href="/i/jf/creators/studio"]
 
-! Block Chat sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/chat"]:upward(1)
 ! Block Premium sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(1)
 ! Block Communities sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href*="/communities"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href*="/communities"]:upward(1)
 ! Block Monetization sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/monetization"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/monetization"]:upward(1)
 ! Block Ads sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]:upward(1)
+! Block Creator Studio dropdown button
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/jf/creators/studio"]:upward(1)
 
 !! RIGHT BANNER
 ! Block various Premium advertisements
@@ -46,55 +48,59 @@ x.com##[aria-label="Timeline: Trending now"]:upward(2)
 x.com##[aria-label="Who to follow"]:upward(2)
 
 !! HOME
-! Block Grok button
-x.com##[class="css-175oi2r r-633pao r-173mn98 r-6gpygo r-1rtiivn r-hvns9x r-1jte41z r-bnwqim r-y42jk5"][data-testid="GrokDrawer"]:upward(2)
-! Block 'Explain this post' button
+! Block Grok button (the one above the Chat button)
+x.com##[class="css-g5y9jx r-633pao r-173mn98 r-6gpygo r-1rtiivn r-hvns9x r-1jte41z r-bnwqim r-y42jk5"][data-testid="GrokDrawer"]:upward(2)
+! Block Grok 'Explain this post' button on tweets
 x.com##[aria-label="Grok actions"][type="button"]:upward(1)
+! Block Grok 'Generate image' button on tweet composer
+x.com##[class="css-g5y9jx r-14tvyh0 r-cpa5s6"]>[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-2yi16 r-1qi8awa r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][aria-label="Generate image"]
+! Block 'Upgrade to Premium' advertisement when writing over 280 characters in tweet composer
+x.com##[class="css-g5y9jx"]>*[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-1b43r93 r-1cwl3u0 r-b88u0q r-1q142lx r-1s2bzr4 r-iphfwy r-13orzya r-3s2u2q r-1ddef8g r-tjvw6i r-1loqt21"][href="/i/premium_sign_up?referring_page=post-composer"]
 
 ! Block views icon and number
 x.com##[href*="/analytics"][aria-label*="View post analytics"]:upward(1)
 ! Block 'Views' label
-x.com##.r-1471scf.r-1wbh5a2.r-18u37iz.r-1d09ksm.css-175oi2r > .r-n7gxbd.r-1q142lx.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
-x.com##.r-1471scf.r-1wbh5a2.r-18u37iz.r-1d09ksm.css-175oi2r > .r-1loqt21.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
+x.com##[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1loqt21"][href*="/analytics"]
+x.com##[class="css-g5y9jx r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf"]>[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1q142lx r-n7gxbd"]
 ! Block 'Edit image' button when hovering over tweets with images
-x.com##[href*="grok.com/imagine"][aria-label*="Edit image"]:upward(2)
+x.com##[class="css-g5y9jx r-rki7wi r-1ba6zt5 r-u8s1d r-c97pre"]>[class="css-g5y9jx"]>[href*="grok.com/imagine"][aria-label*="Edit image"]:upward(2)
 
-! Block 'Subscribe to Premium to write your own longer posts' advertisement on long tweets
-x.com##[aria-label="Subscribe to Premium to write your own longer posts"]:upward(2)
-! Block 'Get Verified with a blue check' advertisement on tweets from verified accounts
-x.com##[aria-label="Get Verified with a blue check"]:upward(2)
-! Block 'Get verified' advertisement on own profile
-x.com##[class="css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-1ceczpf r-lp5zef r-3o4zer r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]
+! Block 'Subscribe to Premium to write your own longer posts' advertisement on long tweets (may have been removed)
+! x.com##[aria-label="Subscribe to Premium to write your own longer posts"]:upward(2)
+! Block 'Get Verified with a blue check' advertisement on tweets from verified accounts (may have been removed)
+! x.com##[aria-label="Get Verified with a blue check"]:upward(2)
 
 !! TWEET DROPDOWN MENU
 ! Block 'Subscribe to [user]' button
 x.com##[data-testid="subscribe"]
-! Block "Enhance your post with Grok" button
-x.com##[aria-label="Enhance your post with Grok"]:upward(1)
+! Block "Enhance your post with Grok" button (may have been removed)
+! x.com##[aria-label="Enhance your post with Grok"]:upward(1)
+! Block 'Edit image' button
+x.com##[class="css-g5y9jx r-18u37iz r-1mmae3n r-3pj75a r-13qz1uu r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href*="grok.com/imagine"]
 
 !! PROFILE
-! Block 'It's Premium's Anniversary!' advertisement (not always visible)
-x.com##div>a:has-text("It’s Premium’s Anniversary!"):upward(3)
-! Block "You aren’t verified - now 30% off" advertisement (may have been removed)
-x.com##span:has-text("You aren’t verified - now 30% off"):upward(5)
+! Block 'Get verified' advertisement on own profile
+x.com##[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-1ceczpf r-lp5zef r-3o4zer r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]
 ! Block 'Profile Summary' button on hover
-x.com##div.css-175oi2r.r-1777fci.r-1wzrnnt
+x.com##div.css-g5y9jx.r-1777fci.r-1wzrnnt
 ! Block 'Profile Summary' button on profile
 x.com##[aria-label="Profile Summary"]
 ! Block verification upsell on verified profiles
 x.com##[data-testid="verified_profile_visitor_upsell"]
+! Block blue checkmark ad when clicking on blue checkmark
+x.com##[class="css-g5y9jx r-xoduu5 r-eqz5dr r-1ssbvtb r-1pcd2l5"]>[class="css-g5y9jx r-xoduu5 r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-knv0ih r-15ysp7h r-4wgw6l r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up?referring_page=verification_reason_dialog"]
+! Block 'It's Premium's Anniversary!' advertisement (not always visible)
+x.com##div>a:has-text("It’s Premium’s Anniversary!"):upward(3)
+! Block "You aren’t verified - now 30% off" advertisement (may have been removed)
+! x.com##span:has-text("You aren’t verified - now 30% off"):upward(5)
 
 !! EXPLORE
 ! Block event window (used only for advertisements now)
-x.com##[data-testid="eventHero"]:upward(2)
+x.com##[data-testid="eventHero"]:upward(3)
 ! Block Grok generated trends
-x.com##span[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Today's News"):upward(6)
-x.com##div[class="css-175oi2r r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward(3)
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Today's News"):upward(6)
+x.com##[class="css-g5y9jx r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward(3)
 ! Block trends
-! x.com##div[class="css-175oi2r r-6koalj r-1mmae3n r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward(3)
+! x.com##[class="css-g5y9jx r-6koalj r-1mmae3n r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward(3)
 ! Block 9 pixel banners
-x.com##div[class="css-175oi2r r-1adg3ll r-1ny4l3l"] > div[class="css-175oi2r r-l00any r-109y4c4 r-1sw30gj"]:upward(1)
-
-!! MESSAGES
-! Block Chat button
-x.com##[class="css-175oi2r r-1wtj0ep r-16x9es5 r-1mmae3n r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/chat"]
+x.com##[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]>[class="css-g5y9jx r-l00any r-109y4c4 r-1sw30gj"]:upward(1)
