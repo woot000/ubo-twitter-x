@@ -65,7 +65,6 @@ x.com##[href*="/analytics"][aria-label*="View post analytics"]:upward(1)
 ! Block 'Edit image' button when hovering over tweets with images
 x.com##[href*="grok.com/imagine"][aria-label*="Edit image"]:upward(2)
 
-
 !! TWEETS
 ! Block 'Views' label
 x.com##[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1loqt21"][href*="/analytics"]
@@ -74,6 +73,8 @@ x.com##[class="css-175oi2r r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf"]>[class="css
 x.com##[aria-label="Subscribe to Premium to write your own longer posts"]:upward(2)
 ! Block 'Get Verified with a blue check' advertisement on tweets from verified accounts (may have been removed)
 x.com##[aria-label="Get Verified with a blue check"]:upward(2)
+! Block 'Try Grok for free' ad under tweets that mention Grok
+x.com##div>span:has-text("Try Grok for free"):upward([data-testid="postCta"])
 
 ! Block Grok 'Summarize' button on Article tweets
 x.com##[aria-label="Summarize"][type="button"]:upward(1)
@@ -82,7 +83,6 @@ x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]
 x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]>[class="css-175oi2r r-1jnzvcq r-o8wjku r-vmopo1"]>[class=css-175oi2r])
 ! Block Grok summarization button when viewing an Article tweet in fullscreen
 x.com##[class="css-175oi2r r-1awozwy r-18u37iz r-1cmwbt1"]>button[class="css-175oi2r r-1otgn73 r-1loqt21 r-edyy15"]
-
 
 !! TWEET DROPDOWN MENU
 ! Block 'Subscribe to [user]' button
@@ -115,7 +115,8 @@ x.com##[aria-label="Edit with Imagine"]
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Switch to professional"):upward([href="/i/flow/convert_to_professional"])
 
 ! Block 'Profile Summary' button on hover
-x.com##[class="css-175oi2r r-1777fci r-1wzrnnt"]
+x.com##span:has-text("Profile Summary"):upward([class="css-175oi2r r-1777fci r-1wzrnnt"])
+x.com##span:has-text("Profile Summary"):upward([class="css-175oi2r r-xoduu5 r-1777fci r-1wzrnnt"])
 ! Block 'Profile Summary' Grok button on profile
 x.com##[aria-label="Profile Summary"]
 ! Block verification upsell on verified profiles
