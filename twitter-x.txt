@@ -84,6 +84,15 @@ x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]
 ! Block Grok summarization button when viewing an Article tweet in fullscreen
 x.com##[class="css-175oi2r r-1awozwy r-18u37iz r-1cmwbt1"]>button[class="css-175oi2r r-1otgn73 r-1loqt21 r-edyy15"]
 
+! Block 'More From This Author' section
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]:upward([class="css-175oi2r"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]:upward([class="css-175oi2r"])+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]>[class="css-175oi2r r-l00any r-109y4c4 r-1sw30gj"]:upward([class="css-175oi2r"])
+
 !! TWEET DROPDOWN MENU
 ! Block 'Subscribe to [user]' button
 x.com##[data-testid="Dropdown"]>[data-testid="subscribe"]
