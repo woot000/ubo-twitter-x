@@ -1,7 +1,7 @@
-!!! Twitter/X uBlock Origin filters
-!!! To make Twitter/X mildly more usable by removing some unnecessary buttons and advertisements
-!!! Tested on desktop ('Twitter Web App') on Firefox
-!!! By woot000
+! Title: woot000's Twitter/X uBlock Origin filters
+! Description: To make Twitter/X mildly more usable by removing unnecessary buttons, advertisements, and other visual clutter
+! Homepage: https://github.com/woot000/ubo-twitter-x
+! Expires: 1 day (auto-update time)
 
 !! SIDEBAR
 ! Block Grok sidebar button
