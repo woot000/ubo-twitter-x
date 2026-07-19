@@ -54,6 +54,7 @@ x.com##[aria-label="Who to follow"]:upward(2)
 !! HOME
 ! Block Grok button (the one above the Chat button)
 x.com##[class="css-175oi2r r-633pao r-173mn98 r-6gpygo r-1va2g9v r-bnwqim"][data-testid="GrokDrawer"]:upward(2)
+x.com##[class="css-175oi2r r-105ug2t r-1awozwy r-173mn98 r-1e5uvyk r-6026j r-1xsrhxi r-1867qdf r-rs99b7 r-1upvrn0 r-8oi148 r-1777fci r-u8s1d r-1tfmumk r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="GrokDrawer"]:upward(2)
 
 ! Block Grok 'Generate image' button on tweet composer
 x.com##[aria-label="Generate image"][data-testid="grokImgGen"]:upward(3)
