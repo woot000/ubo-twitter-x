@@ -4,6 +4,8 @@
 ! Expires: 1 day (auto-update time)
 
 !! SIDEBAR
+! Block Follow sidebar button (not always visible)
+x.com##[aria-label="Primary"]>[aria-label="Follow"][href="/i/connect_people"]
 ! Block Grok sidebar button
 x.com##[aria-label="Primary"]>[aria-label="Grok"][href="/i/grok"]
 ! Block Communities sidebar button (not always visible)
