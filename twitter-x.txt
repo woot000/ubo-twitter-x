@@ -20,17 +20,17 @@ x.com##[aria-label="Primary"]>[href="/i/verified-orgs-signup"]
 x.com##[aria-label="Primary"]>[href="/i/jf/creators/studio"]
 
 ! Block Premium sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(1)
 ! Block Communities sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href*="/communities"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href*="/communities"]:upward(1)
 ! Block Monetization sidebar dropdown button (not always visible)
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/monetization"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/monetization"]:upward(1)
 ! Block Creator Studio dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/jf/creators/studio"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/jf/creators/studio"]:upward(1)
 ! Block Business sidebar dropdown button (not always visible)
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/verified-orgs-signup"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/verified-orgs-signup"]:upward(1)
 ! Block Ads sidebar dropdown button
-x.com##[class="css-175oi2r r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]:upward(1)
+x.com##[class="css-g5y9jx r-16y2uox r-dnmrzs r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]:upward(1)
 
 !! RIGHT BANNER
 ! Block various Premium advertisements
@@ -53,8 +53,8 @@ x.com##[aria-label="Who to follow"]:upward(2)
 
 !! HOME
 ! Block Grok button (the one above the Chat button)
-x.com##[class="css-175oi2r r-633pao r-173mn98 r-6gpygo r-1va2g9v r-bnwqim"][data-testid="GrokDrawer"]:upward(2)
-x.com##[class="css-175oi2r r-105ug2t r-1awozwy r-173mn98 r-1e5uvyk r-6026j r-1xsrhxi r-1867qdf r-rs99b7 r-1upvrn0 r-8oi148 r-1777fci r-u8s1d r-1tfmumk r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="GrokDrawer"]:upward(2)
+x.com##[class="css-g5y9jx r-633pao r-173mn98 r-6gpygo r-1va2g9v r-bnwqim"][data-testid="GrokDrawer"]:upward(2)
+x.com##[class="css-g5y9jx r-105ug2t r-1awozwy r-173mn98 r-1e5uvyk r-6026j r-1xsrhxi r-1867qdf r-rs99b7 r-1upvrn0 r-8oi148 r-1777fci r-u8s1d r-1tfmumk r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="GrokDrawer"]:upward(2)
 
 ! Block Grok 'Generate image' button on tweet composer
 x.com##[aria-label="Generate image"][data-testid="grokImgGen"]:upward(3)
@@ -71,7 +71,7 @@ x.com##[href*="/i/grok-redirect"][aria-label*="Edit image"]:upward(2)
 !! TWEETS
 ! Block 'Views' label
 x.com##[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1loqt21"][href*="/analytics"]
-x.com##[class="css-175oi2r r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf"]>[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1q142lx r-n7gxbd"]
+x.com##[class="css-g5y9jx r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf"]>[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-a023e6 r-rjixqe r-16dba41 r-1q142lx r-n7gxbd"]
 ! Block 'Subscribe to Premium to write your own longer posts' advertisement on long tweets (may have been removed)
 x.com##[aria-label="Subscribe to Premium to write your own longer posts"]:upward(2)
 ! Block 'Get Verified with a blue check' advertisement on tweets from verified accounts (may have been removed)
@@ -82,19 +82,19 @@ x.com##div>span:has-text("Try Grok for free"):upward([data-testid="postCta"])
 ! Block Grok 'Summarize' button on Article tweets
 x.com##[aria-label="Summarize"][type="button"]:upward(1)
 ! Block 'Upgrade to Premium' advertisement when viewing an Article tweet in fullscreen
-x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]>[class="css-175oi2r r-vmopo1"]>[class=css-175oi2r])
-x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]>[class="css-175oi2r r-1jnzvcq r-o8wjku r-vmopo1"]>[class=css-175oi2r])
+x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]>[class="css-g5y9jx r-vmopo1"]>[class=css-g5y9jx])
+x.com##[href="/i/premium_sign_up"]:upward([data-testid="twitterArticleReadView"]>[class="css-g5y9jx r-1jnzvcq r-o8wjku r-vmopo1"]>[class=css-g5y9jx])
 ! Block Grok summarization button when viewing an Article tweet in fullscreen
-x.com##[class="css-175oi2r r-1awozwy r-18u37iz r-1cmwbt1"]>button[class="css-175oi2r r-1otgn73 r-1loqt21 r-edyy15"]
+x.com##[class="css-g5y9jx r-1awozwy r-18u37iz r-1cmwbt1"]>button[class="css-g5y9jx r-1otgn73 r-1loqt21 r-edyy15"]
 
 ! Block 'More From This Author' section
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]:upward([class="css-175oi2r"])
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-175oi2r r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([data-testid="tweet"])+[class="css-175oi2r"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]:upward([class="css-175oi2r"])+[class="css-175oi2r"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]>[class="css-175oi2r r-l00any r-109y4c4 r-1sw30gj"]:upward([class="css-175oi2r"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-g5y9jx"]>[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]:upward([class="css-g5y9jx"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("More From This Author"):upward([class="css-g5y9jx r-1adg3ll r-1ny4l3l"]):upward(1)+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([data-testid="tweet"])+[class="css-g5y9jx"]:has([class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("See more"))+[class="css-g5y9jx"]>[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]:upward([class="css-g5y9jx"])+[class="css-g5y9jx"]>[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]>[class="css-g5y9jx r-l00any r-109y4c4 r-1sw30gj"]:upward([class="css-g5y9jx"])
 
 !! TWEET DROPDOWN MENU
 ! Block 'Subscribe to [user]' button
@@ -108,13 +108,13 @@ x.com##[data-testid="Dropdown"]>[href*="/i/communitynotes/contribute/"]
 ! Block 'Request Community Note' button
 x.com##[data-testid="Dropdown"]>[href*="/i/communitynotes/noterequest/"]
 ! Block 'Add to Bookmark Folder' button (currently only visible in fullscreen Article tweets)
-x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Add to Bookmark Folder"):upward([data-testid="Dropdown"]>[class="css-175oi2r r-18u37iz r-1mmae3n r-3pj75a r-13qz1uu r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"])
+x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Add to Bookmark Folder"):upward([data-testid="Dropdown"]>[class="css-g5y9jx r-18u37iz r-1mmae3n r-3pj75a r-13qz1uu r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"])
 ! Block "Enhance your post with Grok" button (may have been removed)
 ! x.com##[aria-label="Enhance your post with Grok"]:upward(1)
 
 !! PROFILE
 ! Block 'Get verified' advertisement on own profile
-x.com##[class="css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-1ceczpf r-lp5zef r-3o4zer r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(4)
+x.com##[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-1ceczpf r-lp5zef r-3o4zer r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(4)
 ! Block 'Subscribe to Premium' button when on own profile's 'Highlights' tab
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Subscribe to Premium"):upward([data-testid="empty_state_button_text"][href="/i/premium_sign_up"])
 ! Block 'Upgrade to Premium' button when on own profile's 'Highlights' tab
@@ -127,8 +127,8 @@ x.com##[aria-label="Edit with Imagine"]
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Switch to professional"):upward([href="/i/flow/convert_to_professional"])
 
 ! Block 'Profile Summary' button on hover
-x.com##span:has-text("Profile Summary"):upward([class="css-175oi2r r-1777fci r-1wzrnnt"])
-x.com##span:has-text("Profile Summary"):upward([class="css-175oi2r r-xoduu5 r-1777fci r-1wzrnnt"])
+x.com##span:has-text("Profile Summary"):upward([class="css-g5y9jx r-1777fci r-1wzrnnt"])
+x.com##span:has-text("Profile Summary"):upward([class="css-g5y9jx r-xoduu5 r-1777fci r-1wzrnnt"])
 ! Block 'Profile Summary' Grok button on profile
 x.com##[aria-label="Profile Summary"]
 ! Block verification upsell on verified profiles
@@ -146,18 +146,18 @@ x.com##[href="/i/premium_sign_up?referring_page=verification_reason_dialog"]
 ! x.com##[data-testid="eventHero"]:upward(3)
 ! Block 'Today's News'
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Today's News"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
-x.com##[class="css-175oi2r r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-g5y9jx r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block trends
-! x.com##[class="css-175oi2r r-6koalj r-1mmae3n r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+! x.com##[class="css-g5y9jx r-6koalj r-1mmae3n r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 'Who to Follow'
 x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-1udbk01 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Who to follow"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
-x.com##[class="css-175oi2r r-1mmae3n r-3pj75a r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="UserCell"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
-x.com##[class="css-175oi2r r-w7s2jr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/connect_people"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-g5y9jx r-1mmae3n r-3pj75a r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="UserCell"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-g5y9jx r-w7s2jr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/connect_people"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 'Posts For You'
 x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-1udbk01 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Posts For You"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
-x.com##[class="css-175oi2r r-18u37iz r-1udh08x r-1c4vpko r-1c7gwzm r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-g5y9jx r-18u37iz r-1udh08x r-1c4vpko r-1c7gwzm r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 9 pixel padding underneath navigation tabs
-x.com##[class="css-175oi2r"][style*="translateY(0px)"]>[class="css-175oi2r r-1adg3ll r-1ny4l3l"]>[class="css-175oi2r r-l00any r-109y4c4 r-1sw30gj"]
+x.com##[class="css-g5y9jx"][style*="translateY(0px)"]>[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]>[class="css-g5y9jx r-l00any r-109y4c4 r-1sw30gj"]
 
 !! SETTINGS
 ! Block 'Monetization' button (redirects to Creator Studio menu)
