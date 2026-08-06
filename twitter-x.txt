@@ -150,11 +150,11 @@ x.com##[class="css-g5y9jx r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt2
 ! Block trends
 ! x.com##[class="css-g5y9jx r-6koalj r-1mmae3n r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 'Who to Follow'
-x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-1udbk01 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Who to follow"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udbk01 r-1udh08x r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Who to follow"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 x.com##[class="css-g5y9jx r-1mmae3n r-3pj75a r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][data-testid="UserCell"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 x.com##[class="css-g5y9jx r-w7s2jr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/connect_people"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 'Posts For You'
-x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-1udbk01 r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Posts For You"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
+x.com##[class="css-146c3p1 r-8akbws r-krxsd3 r-dnmrzs r-1udbk01 r-1udh08x r-bcqeeo r-1ttztb7 r-qvutc0 r-1qd0xha r-adyw6z r-135wba7 r-1vr29t4 r-1kihuf0"]>span:has-text("Posts For You"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 x.com##[class="css-g5y9jx r-18u37iz r-1udh08x r-1c4vpko r-1c7gwzm r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 9 pixel padding underneath navigation tabs
 x.com##[class="css-g5y9jx"][style*="translateY(0px)"]>[class="css-g5y9jx r-1adg3ll r-1ny4l3l"]>[class="css-g5y9jx r-l00any r-109y4c4 r-1sw30gj"]
