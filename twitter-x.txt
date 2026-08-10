@@ -43,6 +43,8 @@ x.com##[aria-label="Thanksgiving offer"]:upward(2)
 x.com##[aria-label="Subscribe to Premium"]:upward(2)
 ! Block Premium upsell advertisement
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]:upward(2)
+! Block 'Introducing Image 2.0, from Grok'
+x.com##[aria-label="Introducing Image 2.0, from Grok"]:upward(1)
 
 ! Block 'Today's News'
 x.com##[data-testid="news_sidebar"]:upward(1)
@@ -50,6 +52,7 @@ x.com##[data-testid="news_sidebar"]:upward(1)
 x.com##[aria-label="Timeline: Trending now"]:upward(2)
 ! Block 'Who to follow'
 x.com##[aria-label="Who to follow"]:upward(2)
+x.com##[data-testid="whoToFollowSspAd"]
 
 !! HOME
 ! Block Grok button (the one above the Chat button)
