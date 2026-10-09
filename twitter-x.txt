@@ -120,10 +120,15 @@ x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Add 
 !! PROFILE
 ! Block 'Get verified' advertisement on own profile
 x.com##[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-1ceczpf r-lp5zef r-3o4zer r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(4)
+x.com##[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-k200y r-knv0ih r-2yi16 r-1qi8awa r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"][href="/i/premium_sign_up"]:upward(4)
+! Block 'X Money' button on own profile
+x.com##[class="css-g5y9jx r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-6gpygo r-1wron08 r-2yi16 r-1qi8awa r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l"][aria-label="X Money"]
+
 ! Block 'Subscribe to Premium' button when on own profile's 'Highlights' tab
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Subscribe to Premium"):upward([data-testid="empty_state_button_text"][href="/i/premium_sign_up"])
 ! Block 'Upgrade to Premium' button when on own profile's 'Highlights' tab
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Upgrade to Premium"):upward([data-testid="empty_state_button_text"][href="/i/premium_sign_up"])
+
 ! Block 'Edit your photo with Imagine' label on 'Edit profile' menu
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Edit your photo with Imagine"):upward(3)
 ! Block 'Edit with Imagine' button over banner on 'Edit profile' menu
