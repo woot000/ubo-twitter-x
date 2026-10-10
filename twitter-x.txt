@@ -16,6 +16,8 @@ x.com##[aria-label="Primary"]>[aria-label="Premium"][href="/i/premium_sign_up"]
 x.com##[aria-label="Primary"]>[href="/jobs"]
 ! Block Premium Business sidebar button (not always visible)
 x.com##[aria-label="Primary"]>[href="/i/verified-orgs-signup"]
+! Block Calls sidebar button
+x.com##[aria-label="Primary"]>[aria-label="Calls"][href="/i/calls"]
 ! Block Money sidebar button
 x.com##[aria-label="Primary"]>[aria-label="Money"][href="/i/money"]
 ! Block Creator Studio sidebar and dropdown button
