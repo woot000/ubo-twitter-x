@@ -154,6 +154,8 @@ x.com##[href="/i/premium_sign_up?referring_page=verification_reason_dialog"]
 ! x.com##span:has-text("You aren’t verified - now 30% off"):upward(5)
 
 !! EXPLORE
+! Block "Dream Up a Starlink Ad with Grok for the Big Game" advertisement
+x.com##[href="https://x.com/i/jf/contests/starlink"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 ! Block 'Sports'
 x.com##[class="jf-element text-text jd9ier0 ju5bwyg0 j-l98t0b0 j-53n1bs12 j-g04ith13 j-4t3tug11"]>[class="jf-element line-clamp-1"]:has-text("Sports"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 x.com##[class="jf-element flex jy49p8z0 jfa278c0 j-fthzbj0 j-48ugzz0 j7rfs230 j-3ejl4n12 joqoyoj12 j-3t7r0612 j-cw4uj611 j-1ks5sb11 j-4xjx2m11 j-2hi02m13 j-g88q1q13"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
