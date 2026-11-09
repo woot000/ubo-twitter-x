@@ -154,8 +154,8 @@ x.com##[href="/i/premium_sign_up?referring_page=verification_reason_dialog"]
 ! x.com##span:has-text("You aren’t verified - now 30% off"):upward(5)
 
 !! EXPLORE
-! Block event window (used only for advertisements now) (may have been removed)
-! x.com##[data-testid="eventHero"]:upward(3)
+! Block event window (used only for advertisements now) and unclickable ellipsis menu
+x.com##[data-testid="eventHero"]:upward(3)
 ! Block 'Today's News'
 x.com##[class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3"]:has-text("Today's News"):upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
 x.com##[class="css-g5y9jx r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:upward([aria-label="Timeline: Explore"]>div>[data-testid="cellInnerDiv"])
